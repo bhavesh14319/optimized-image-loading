@@ -2,12 +2,13 @@
 
 This repo contains index.html file inside which it has javascript code in <Script> tag which can be used to optimize the image loading
 
+```
  imageUrls.forEach(user => {
     const imageUrl = user.image;
     const img = new Image();
     img.src = imageUrl;
 });
-
+```
 
 Whenever the user loads this page for first time this loop runs and caches the image element to browser
 and on next load images are fetched from browser cache
