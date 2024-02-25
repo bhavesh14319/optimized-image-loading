@@ -8,6 +8,7 @@ This repo contains index.html file inside which it has javascript code in <Scrip
     img.src = imageUrl;
 });
 
+
 Whenever the user loads this page for first time this loop runs and caches the image element to browser
 and on next load images are fetched from browser cache
 
